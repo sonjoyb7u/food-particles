@@ -9,13 +9,29 @@ body {
 .content-flexible {
     display: flex;
 }
+h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+h3 {
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.half-content {
+    max-width: 50%;
+    padding-left: 6%;
+}
 .section-one {
-    width: 1160px;
+    max-width: 1160px;
     margin: 0 auto;
     box-shadow: 0 5px 12px #0389F6;
+    background-attachment: fixed;
 }
 .nav-logo {
-    width: 50%;
     margin: 20px;
 }
 .nav-logo a {
@@ -29,7 +45,6 @@ span.logo-text-part {
     color: coral;
 }
 .nav-menu {
-    width: 50%;
     padding-left: 10%;  
 }
 .nav-menu ul li {
@@ -40,3 +55,45 @@ span.logo-text-part {
     text-decoration: none;
     font-size: 18px;
 }
+/* END NAVBAR MENU SECTION... */
+
+.section-two {
+    margin-top: 50px;
+}
+.color-diet-text {
+    color: #0389F6;
+    font-weight: 800;
+}
+.color-food-particle {
+    color: coral;
+    font-weight: 800;
+}
+.top-banner-left {
+    margin-top: 50px;
+}
+.top-banner-left p {
+    text-transform: capitalize;
+    text-align: justify;
+}
+.order-food-btn {
+    background-image: linear-gradient(to right, rgb(250, 131, 88), #0389F6);
+    padding: 15px 40px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.top-banner-right {
+    margin-left: 5%;
+}
+.top-banner-right img {
+    max-width: 80%;
+}
+/* END TOP BANNER SECTION... */
+
+
+
+
