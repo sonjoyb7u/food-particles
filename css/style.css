@@ -12,14 +12,17 @@ body {
 h1 {
     font-size: 45px;
     text-transform: capitalize;
+    color: #707070;
 }
 h2 {
     font-size: 40px;
     text-transform: capitalize;
+    color: #707070;
 }
 h3 {
     font-size: 35px;
     text-transform: capitalize;
+    color: #707070;
 }
 .half-content {
     max-width: 50%;
@@ -42,10 +45,10 @@ h3 {
     margin-top: 10px;
 }
 span.logo-text-part {
-    color: coral;
+    color: orangered;
 }
 .nav-menu {
-    padding-left: 10%;  
+    margin-left: 23%;  
 }
 .nav-menu ul li {
     display: inline-block;
@@ -65,7 +68,7 @@ span.logo-text-part {
     font-weight: 800;
 }
 .color-food-particle {
-    color: coral;
+    color: orangered;
     font-weight: 800;
 }
 .top-banner-left {
@@ -74,9 +77,10 @@ span.logo-text-part {
 .top-banner-left p {
     text-transform: capitalize;
     text-align: justify;
+    color: #707070;
 }
 .order-food-btn {
-    background-image: linear-gradient(to right, rgb(250, 131, 88), #0389F6);
+    background-image: linear-gradient(to right, rgb(253, 193, 171), #0389F6);
     padding: 15px 40px;
     border-radius: 30px;
     display: inline-block;
@@ -93,6 +97,38 @@ span.logo-text-part {
     max-width: 80%;
 }
 /* END TOP BANNER SECTION... */
+
+.section-three {
+    margin-top: 50px;
+    background-image: url(../images/Frame57.png);
+    background-repeat: no-repeat;
+}
+.about-me-right {
+    margin-right: 5%;
+}
+.about-me-right p {
+    text-align: justify;
+    color: #707070;
+} 
+.about-me-left img {
+    max-width: 55%;
+    margin: 30px 0 0 40px;
+    
+}
+.border-about-text {
+    border-bottom: 2px solid coral;
+}
+.contact-me-btn {
+    background-image: linear-gradient(to right, #a5d5fc, orangered);
+    padding: 15px 40px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
 
 
 
