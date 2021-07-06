@@ -182,10 +182,65 @@ span.logo-text-part {
 #half-food-item p {
     text-align: justify;
 }
+#load-more-btn {
+    width: 200px;
+    margin: 20px auto 0;
+}
+.load-more-btn {
+    background-image: linear-gradient(to right, rgb(253, 193, 171), #0389F6);
+    padding: 15px 50px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    
+}
 /* END MY RECIPES SECTION... */
 
+.section-five {
+    margin-top: 100px;
+    background-image: url(../images/7.png);
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.send-mail-left {
+    margin-top: 100px;
+}
+.send-mail-right {
+    border-radius: 20px;
+    background-color: rgba(250, 195, 175, 0.3);
+    padding: 30px;
+    margin-left: 5%;
+    box-shadow: 5px 5px 8px rgb(253, 193, 171);
 
-/* END CONTACT ME SECTION... */
+}
+.send-mail-right input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(253, 193, 171);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.send-mail-right input[type=submit] {
+    background-image: linear-gradient(to right, #8ccafd, orangered);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* END GET IN TOUCH SECTION... */
 
 .section-footer {
     margin-top: 100px;
