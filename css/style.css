@@ -221,6 +221,9 @@ span.logo-text-part {
 .send-mail-right input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 10px;
+    outline: none;
+    outline-style: none;
+    border: none;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 5px 5px 8px rgb(253, 193, 171);
